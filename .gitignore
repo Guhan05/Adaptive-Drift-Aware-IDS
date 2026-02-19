@@ -1,8 +1,15 @@
+node_modules/
+dashboard_frontend/node_modules/
+
+__pycache__/
+*.pyc
+
+.env
 
 data/
-*.parquet
 *.csv
+*.parquet
 *.pcap
-node_modules/
-__pycache__/
-.env
+
+dist/
+build/
