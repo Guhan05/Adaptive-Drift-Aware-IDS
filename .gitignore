@@ -1,18 +1,8 @@
-# python
-__pycache__/
-*.pyc
 
-# dataset
 data/
-
-# models
-src/models/*.h5
-
-# logs
-src/results/*.csv
-
-# streamlit cache
-.streamlit/
-
-# venv
-venv/
+*.parquet
+*.csv
+*.pcap
+node_modules/
+__pycache__/
+.env
